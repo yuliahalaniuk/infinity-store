@@ -1,0 +1,1082 @@
+
+.containerSecondaryHeader {
+display: flex;
+flex-direction: row;
+ position: relative;
+max-width: 100%;
+      border: 1px 0px 0px 0px;
+      background: rgba(30, 30, 30, 1);
+      padding: 20px;
+
+}
+
+.secondTabList{
+  display: flex;
+  justify-content: space-around;
+}
+
+.firstTab {
+  display: flex;
+  gap: 40px;
+}
+
+.firstTabLeftSide {}
+
+
+.welcomeSTART {
+  padding-block: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: url(/public/heroBg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.step1{
+    width: 970px;
+    height: 260px;
+    background: rgba(30, 30, 30, 1);
+    position: relative;
+}
+a.Generate{
+    width: 205px;
+    height: 62px;
+    top: 25px;
+    left: 35px;
+    font-family: Gilroy;
+font-size: 45px;
+font-weight: 300;
+line-height: 51.88px;
+text-align: left;
+position: absolute;
+color: #ffffff
+}
+a.Create{
+
+position: absolute;
+width: 145px;
+height: 52px;
+top: 95px;
+left: 400px;
+gap: 0px;
+opacity: 0px;
+font-family: Gilroy;
+font-size: 45px;
+font-weight: 300;
+line-height: 51.88px;
+text-align: left;
+
+color: #ffffff
+}
+a.Publicate{
+    position: absolute;
+    width: 196px;
+    height: 52px;
+    top: 180px;
+    left: 750px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Gilroy;
+font-size: 45px;
+font-weight: 300;
+line-height: 51.88px;
+text-align: left;
+
+
+color: #ffffff
+}
+
+  .InfinityStore2{
+    width: 135px;
+   border-right: 1px solid rgb(154, 154, 154);
+    font-family: Gilroy;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.02px;
+    text-align: left;
+    background: rgba(255, 255, 255, 1);
+    background-color:rgba(30, 30, 30, 1);
+    color:white;
+
+    }
+
+.OurCompany1{
+    width: 179.82px;
+  height: 28px;
+   gap: 0px;
+  opacity: 0px;
+
+  font-family: Gilroy;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 27.84px;
+  text-align: left;
+ color: rgba(255, 255, 255, 1);
+
+  
+
+    }
+    .OurProduct1{
+        width: 167.83px;
+        height: 28px;
+                     gap: 0px;
+        opacity: 0px;
+        font-family: Gilroy;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 27.84px;
+    text-align: left;
+    color: rgba(154, 154, 154, 1);
+  
+    background-color: rgba(30, 30, 30, 1);
+  }
+    .WorkingWithUs1{
+        width: 205.79px;
+    height: 28px;
+         gap: 0px;
+    opacity: 0px;
+    font-family: Gilroy;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 27.84px;
+    text-align: left;
+  
+    color: rgba(154, 154, 154, 1);
+    }  
+    .Projectpublication1{
+        width: 253px;
+        height: 28px;
+             
+        gap: 0px;
+        opacity: 0px;
+        font-family: Gilroy;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 27.84px;
+    text-align: left;
+  
+    color: rgba(154, 154, 154, 1);
+    }
+    .ChooseUs1{
+        width: 149.85px;
+    height: 28px;
+  
+    gap: 0px;
+    opacity: 0px;
+    font-family: Gilroy;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 27.84px;
+    text-align: left;
+  
+    color: rgba(154, 154, 154, 1);
+    }
+    .container1{
+        width: 1948px;
+    height: 100px;
+  
+        gap: 0px;
+    opacity: 0px;
+    background: rgba(30, 30, 30, 1);
+    color: rgba(154, 154, 154, 1);
+  
+    }  
+    .InfinityStore1{
+        width: 135px;
+    height: 59px;
+        gap: 0px;
+    opacity: 0px;
+    font-family: Gilroy;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.02px;
+    text-align: left;
+    
+  
+    background-color: rgba(30, 30, 30, 1);
+    color:white;
+    
+    }
+    .container2{
+      width: 1948px;
+      height: 100px;
+    
+            gap: 0px;
+      opacity: 0px;
+      
+      border: 1px 0px 0px 0px;
+      
+    
+      background: rgba(30, 30, 30, 1);
+  }
+  .container3{
+    width: 1948px;
+  height: 100px;
+
+    gap: 0px;
+  opacity: 0px;
+  background: rgba(30, 30, 30, 1);
+  
+
+  }
+  .container4{
+    width: 1948px;
+  height: 100px;
+
+    gap: 0px;
+  opacity: 0px;
+  background: rgba(30, 30, 30, 1);
+  
+
+  }
+  .container5{
+    width: 1948px;
+  height: 100px;
+
+    gap: 0px;
+  opacity: 0px;
+  background: rgba(30, 30, 30, 1);
+  
+
+  }
+
+  .InfinityStore3{
+    width: 135px;
+  height: 59px;
+   gap: 0px;
+  opacity: 0px;
+  font-family: Gilroy;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29.02px;
+  text-align: left;
+  background: rgba(255, 255, 255, 1);
+
+  background-color:rgba(30, 30, 30, 1);
+  color:white;
+  }
+  .InfinityStore4{
+    width: 135px;
+    height: 59px;
+         gap: 0px;
+    opacity: 0px;
+    font-family: Gilroy;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.02px;
+    text-align: left;
+    background: rgba(255, 255, 255, 1);
+  
+    background-color:rgba(30, 30, 30, 1);
+    color:white;
+    }
+  .InfinityStore5{
+    width: 135px;
+  height: 59px;
+   gap: 0px;
+  opacity: 0px;
+  font-family: Gilroy;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29.02px;
+  text-align: left;
+  background: rgba(255, 255, 255, 1);
+
+  background-color:rgba(30, 30, 30, 1);
+  color:white;
+  
+  
+  }
+  .OurCompany2{
+    width: 179.82px;
+  height: 28px;
+   gap: 0px;
+  opacity: 0px;
+  font-family: Gilroy;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 27.84px;
+  text-align: left;
+  color: rgba(154, 154, 154, 1);
+
+    }
+    .OurCompany3{
+      width: 179.82px;
+    height: 28px;
+         gap: 0px;
+    opacity: 0px;
+  
+    font-family: Gilroy;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 27.84px;
+    text-align: left;
+    color: rgba(154, 154, 154, 1);
+      }
+      .OurCompany4{
+        width: 179.82px;
+      height: 28px;
+               gap: 0px;
+      opacity: 0px;
+    
+      font-family: Gilroy;
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 27.84px;
+      text-align: left;
+      color: rgba(154, 154, 154, 1);
+        }
+  .OurCompany5{
+          width: 179.82px;
+        height: 28px;
+                     gap: 0px;
+        opacity: 0px;
+      
+        font-family: Gilroy;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 27.84px;
+        text-align: left;
+        color: rgba(154, 154, 154, 1);
+   }
+   .OurProduct2{
+    width: 167.83px;
+    height: 28px;
+    
+    opacity: 0px;
+    font-family: Gilroy;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 27.84px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+  }
+  .OurProduct3{
+    width: 167.83px;
+    height: 28px;
+         gap: 0px;
+    opacity: 0px;
+    font-family: Gilroy;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 27.84px;
+  text-align: left;
+  color: rgba(154, 154, 154, 1);
+
+  }
+  .OurProduct4{
+    width: 167.83px;
+    height: 28px;
+         gap: 0px;
+    opacity: 0px;
+    font-family: Gilroy;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 27.84px;
+  text-align: left;
+  color: rgba(154, 154, 154, 1);
+
+  }
+  .OurProduct5{
+    width: 167.83px;
+    height: 28px;
+         gap: 0px;
+    opacity: 0px;
+    font-family: Gilroy;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 27.84px;
+  text-align: left;
+  color: rgba(154, 154, 154, 1);
+
+  }
+  .WorkingWithUs2{
+    width: 205.79px;
+  height: 28px;
+   gap: 0px;
+  opacity: 0px;
+  font-family: Gilroy;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 27.84px;
+  text-align: left;
+
+  color: rgba(154, 154, 154, 1);
+  }
+  .WorkingWithUs3{
+    width: 205.79px;
+  height: 28px;
+   gap: 0px;
+  opacity: 0px;
+  font-family: Gilroy;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 27.84px;
+  text-align: left;
+
+  color: rgb(255, 255, 255);
+  }
+  .WorkingWithUs4{
+    width: 205.79px;
+  height: 28px;
+   gap: 0px;
+  opacity: 0px;
+  font-family: Gilroy;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 27.84px;
+  text-align: left;
+
+  color: rgba(154, 154, 154, 1);
+  }
+  .WorkingWithUs5{
+    width: 205.79px;
+  height: 28px;
+   gap: 0px;
+  opacity: 0px;
+  font-family: Gilroy;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 27.84px;
+  text-align: left;
+
+  color: rgba(154, 154, 154, 1);
+  }
+     .Projectpublication2{
+    width: 253px;
+    height: 28px;
+     
+    gap: 0px;
+    opacity: 0px;
+    font-family: Gilroy;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 27.84px;
+  text-align: left;
+
+  color: rgba(154, 154, 154, 1);
+  }
+  .Projectpublication3{
+    width: 253px;
+    height: 28px;
+     
+    gap: 0px;
+    opacity: 0px;
+    font-family: Gilroy;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 27.84px;
+  text-align: left;
+
+  color: rgba(154, 154, 154, 1);
+  }
+  .Projectpublication4{
+    width: 253px;
+    height: 28px;
+     
+    gap: 0px;
+    opacity: 0px;
+    font-family: Gilroy;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 27.84px;
+  text-align: left;
+
+  color: rgb(255, 255, 255);
+  }
+       .Projectpublication5{
+    width: 253px;
+    height: 28px;
+     
+    gap: 0px;
+    opacity: 0px;
+    font-family: Gilroy;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 27.84px;
+  text-align: left;
+
+  color: rgba(154, 154, 154, 1);
+      }
+      .ChooseUs2{
+        width: 149.85px;
+    height: 28px;
+  
+    gap: 0px;
+    opacity: 0px;
+    font-family: Gilroy;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 27.84px;
+    text-align: left;
+  
+    color: rgba(154, 154, 154, 1);
+    }
+    .ChooseUs3{
+      width: 149.85px;
+  height: 28px;left: 1513px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Gilroy;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 27.84px;
+  text-align: left;
+
+  color: rgba(154, 154, 154, 1);
+  }
+  .ChooseUs4{
+    width: 149.85px;
+  height: 28px;left: 1513px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Gilroy;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 27.84px;
+  text-align: left;
+
+  color: rgba(154, 154, 154, 1);
+  }
+  .ChooseUs5{
+    width: 149.85px;
+  height: 28px;left: 1513px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Gilroy;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 27.84px;
+  text-align: left;
+
+  color: rgb(255, 255, 255);
+  }
+
+p.WeARE{
+  width: 884px;
+height: 242px;
+left: 45px;
+gap: 0px;
+opacity: 0px;
+font-family: Gilroy;
+font-size: 50px;
+font-weight: 300;
+line-height: 57.65px;
+text-align: left;
+}
+p.inf{
+    width: 884px;
+height: 282px;
+left: 550px;
+    font-family: Gilroy;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 59.65px;
+    text-align: left;
+  
+}
+p.WeBelive{
+    width: 911px;
+height: 211px;
+left: 52px;
+gap: 0px;
+opacity: 0px;
+font-family: Gilroy;
+font-size: 35px;
+font-weight: 300;
+line-height: 40.35px;
+text-align: left;
+}
+p.ThereIsNoPlatform{
+    width: 819px;
+    height: 172px;
+  
+       gap: 0px;
+    opacity: 0px;
+    font-family: Gilroy;
+font-size: 38px;
+font-weight: 300;
+line-height: 40.35px;
+text-align: left;
+
+  
+}
+
+h1.Create{
+    width: 283px;
+    height: 73px;
+  
+        gap: 0px;
+    opacity: 0px;
+    font-family: Gilroy;
+font-size: 40px;
+font-weight: 700;
+line-height: 72.54px;
+text-align: left;
+}
+h1.Publish{
+  
+    width: 290px;
+height: 73px;
+left: 567px;
+gap: 0px;
+opacity: 0px;
+font-family: Gilroy;
+font-size: 40px;
+font-weight: 700;
+line-height: 72.54px;
+text-align: left;
+
+}
+h1.Analyze{
+    width: 310px;
+    height: 73px;
+  
+    
+    gap: 0px;
+    opacity: 0px;
+    font-family: Gilroy;
+font-size: 40px;
+font-weight: 700;
+line-height: 72.54px;
+text-align: left;
+
+}
+h1.Better{
+    width: 261px;
+    height: 73px;
+  
+    
+    gap: 0px;
+    opacity: 0px;
+    font-family: Gilroy;
+font-size: 40px;
+font-weight: 700;
+line-height: 72.54px;
+text-align: left;
+}
+p.text1{
+    width: 362px;
+    height: 424px;
+  
+        gap: 0px;
+    opacity: 0px;
+    font-family: Gilroy;
+font-size: 40px;
+font-weight: 400;
+line-height: 46.4px;
+text-align: left;
+color: rgba(0, 0, 0, 1);
+}
+p.text2{
+    width: 341px;
+    height: 410px;
+  
+        gap: 0px;
+    opacity: 0px;
+    font-family: Gilroy;
+font-size: 40px;
+font-weight: 400;
+line-height: 46.4px;
+text-align: left;
+color: rgba(0, 0, 0, 1);
+}
+p.text3{
+    width: 373px;
+    height: 419px;
+  
+    
+    gap: 0px;
+    opacity: 0px;
+    font-family: Gilroy;
+font-size: 40px;
+font-weight: 400;
+line-height: 46.4px;
+text-align: left;
+color: rgba(0, 0, 0, 1);
+}
+p.text4{
+    width: 289px;
+    height: 429px;
+  
+    
+    gap: 0px;
+    opacity: 0px;
+    font-family: Gilroy;
+font-size: 40px;
+font-weight: 400;
+line-height: 46.4px;
+text-align: left;
+color: rgba(0, 0, 0, 1);
+
+}
+a.NFP{
+    width: 115px;
+height: 12px;left: 2px;
+gap: 0px;
+opacity: 0px;
+font-family: Gilroy;
+font-size: 10px;
+font-weight: 300;
+line-height: 13.84px;
+text-align: left;
+color: rgba(0, 0, 0, 1);
+background: rgb(235, 221, 234);
+
+}
+p.DoYouWant{
+    width: 1478px;
+height: 140px;
+left: 31px;
+gap: 0px;
+opacity: 0px;
+font-family: Gilroy;
+font-size: 35px;
+font-weight: 550;
+line-height: 49.4px;
+text-align: left;
+color:rgba(0, 0, 0, 1);
+}
+p.OtherWise{
+    width: 758px;
+height: 34px;
+left: 1165px;
+gap: 0px;
+opacity: 0px;
+font-family: Gilroy;
+font-size: 30px;
+font-weight: 150;
+line-height: 34.41px;
+text-align: left;
+color:rgba(0, 0, 0, 1);
+}
+li.point1{
+    width: 916px;
+height: 34px;
+left: 87px;
+gap: 0px;
+opacity: 0px;
+font-family: Gilroy;
+font-size: 32px;
+font-weight: 400;
+line-height: 37.12px;
+text-align: left;
+color: rgba(0, 0, 0, 1);
+
+}
+li.point2{
+    width: 845px;
+    height: 39px;
+  
+       gap: 0px;
+    opacity: 0px;
+    font-family: Gilroy;
+font-size: 32px;
+font-weight: 400;
+line-height: 37.12px;
+text-align: left;
+color: rgba(0, 0, 0, 1);
+}
+li.point3{
+    width: 959px;
+    height: 37px;
+  
+       gap: 0px;
+    opacity: 0px;
+    font-family: Gilroy;
+font-size: 32px;
+font-weight: 400;
+line-height: 37.12px;
+text-align: left;
+color: rgba(0, 0, 0, 1);
+}
+li.point4{
+    width: 1138px;
+    height: 37px;
+  
+       gap: 0px;
+    opacity: 0px;
+    font-family: Gilroy;
+font-size: 32px;
+font-weight: 400;
+line-height: 37.12px;
+text-align: left;
+color: rgba(0, 0, 0, 1);
+}
+li.point5{
+    width: 833px;
+    height: 37px;
+  
+       gap: 0px;
+    opacity: 0px;
+    font-family: Gilroy;
+font-size: 32px;
+font-weight: 400;
+line-height: 37.12px;
+text-align: left;
+color: rgba(0, 0, 0, 1);
+}
+.WelcomeSelection{
+    width: 578px;
+height: 403px;left: 659px;
+gap: 0px;
+opacity: 0px;
+}
+.MakeyourChoice{
+    width: 578px;
+    height: 85px;
+          gap: 0px;
+    opacity: 0px;
+    font-family: Gilroy;
+font-size: 72px;
+font-weight: 500;
+line-height: 84.74px;
+text-align: left;
+color:rgba(0, 0, 0, 1);
+text-align: center;
+}
+h2.Choose{
+  
+    width: 454px;
+height: 70px;left: 721px;
+gap: 0px;
+opacity: 0px;
+font-family: Gilroy;
+font-size: 60px;
+font-weight: 400;
+line-height: 69.6px;
+text-align: left;
+color:rgba(0, 0, 0, 1);
+text-align: center;
+
+}
+p.Choose{
+  
+    width: 179px;
+height: 58px;left: 860px;
+gap: 0px;
+opacity: 0px;
+font-family: Gilroy;
+font-size: 50px;
+font-weight: 300;
+line-height: 57.65px;
+text-align: left;
+color:rgba(0, 0, 0, 1);
+text-align: center;
+}
+h1.welInf{
+  
+    width: 521px;
+height: 214px;left: 703px;
+gap: 0px;
+opacity: 0px;
+font-family: Gilroy;
+font-size: 90px;
+font-weight: 600;
+line-height: 107.37px;
+text-align: left;
+color:rgba(0, 0, 0, 1);
+text-align: center;
+}
+div.end{
+  
+    width: 134.86px;
+height: 59px;
+left: 31px;
+gap: 0px;
+opacity: 0px;
+
+color: #ffffff
+
+}
+
+nav.Pag1 {
+    width: 1947px;
+height: 100px;ft: -17px;
+gap: 0px;
+opacity: 0px;
+background: rgba(30, 30, 30, 1);
+}
+.InfinityStore{
+    width: 135px;
+height: 59px;eft: 48px;
+gap: 0px;
+opacity: 0px;
+font-family: Gilroy;
+font-size: 24px;
+font-weight: 700;
+line-height: 29.02px;
+text-align: left;
+
+background-color: rgba(30, 30, 30, 1);
+color: rgb(255, 255, 255);
+
+
+}
+.s-a{
+    width: 765px;
+height: 34px;left: 25px;
+gap: 0px;
+border-radius: 25px 0px 0px 0px;
+opacity: 0px;
+}
+.Store{
+    width: 53px;
+height: 26px;eft: 281px;
+gap: 0px;
+opacity: 0px;
+font-family: Gilroy;
+font-size: 22px;
+font-weight: 400;
+line-height: 25.52px;
+text-align: left;
+color: rgba(154, 154, 154, 1);
+background-color: rgba(30, 30, 30, 1);
+
+}
+.Community{
+  
+    width: 116px;
+height: 26px;eft: 399px;
+gap: 0px;
+opacity: 0px;
+font-family: Gilroy;
+font-size: 22px;
+font-weight: 400;
+line-height: 25.52px;
+text-align: left;
+color: rgba(154, 154, 154, 1);
+background-color: rgba(30, 30, 30, 1);
+}
+.NewsEvents{
+    width: 145px;
+height: 26px;eft: 580px;
+gap: 0px;
+opacity: 0px;
+font-family: Gilroy;
+font-size: 22px;
+font-weight: 400;
+line-height: 25.52px;
+text-align: left;
+color: rgba(154, 154, 154, 1);
+background-color: rgba(30, 30, 30, 1);
+}
+.Support{
+    width: 82px;
+height: 26px;eft: 790px;
+gap: 0px;
+opacity: 0px;
+font-family: Gilroy;
+font-size: 22px;
+font-weight: 400;
+line-height: 25.52px;
+background-color: rgba(30, 30, 30, 1);
+text-align: left;
+color: rgba(154, 154, 154, 1);
+
+}
+.AboutUs{
+
+ width: 92px;
+height: 26px;eft: 937px;
+gap: 0px;
+opacity: 0px;
+font-family: Gilroy;
+font-size: 22px;
+font-weight: 400;
+line-height: 25.52px;
+text-align: left;
+color: rgba(255, 255, 255, 1);
+background-color: rgba(30, 30, 30, 1);
+
+}
+.search{
+    background-color: rgba(30, 30, 30, 1);
+width: 260px;
+height: 40px;eft: 1437px;
+gap: 0px;
+opacity: 0px;
+font-family: Gilroy;
+font-size: 22px;
+font-weight: 400;
+line-height: 25.52px;
+text-align: left;
+background: rgba(255, 255, 255, 1);
+
+}
+.lookfor{
+    width: 230px;
+height: 230px;left: 1622px;
+gap: 0px;
+opacity: 0px;
+}
+.iconChangeLanguages{
+    width: 70px;
+    height: 70px;
+     
+    gap: 0px;
+    opacity: 0px;
+  
+
+}
+.iconProfile{
+    width: 50px;
+    height: 50px;
+     
+    gap: 0px;
+    opacity: 0px;
+  
+
+}
+a:link{
+
+  text-decoration: none;
+  
+}
+.Welcome-inf{
+    width: 618px;
+height: 294px;left: 674px;
+gap: 0px;
+opacity: 0px;
+font-family: Gilroy;
+font-size: 95px;
+font-weight: 700;
+line-height: 132.99px;
+text-align: left;
+font-family: Gilroy;
+text-align: center;
+
+
+
+}
+.Welcome-first{
+    width: 431px;
+    height: 24px;
+          gap: 0px;
+    opacity: 0px;
+    font-family: Gilroy;
+font-size: 21px;
+font-weight: 300;
+line-height: 24.21px;
+text-align: left;
+
+
+
+}
+.Welcome-to{
+    width: 251px;
+height: 52px;left: 858px;
+gap: 0px;
+opacity: 0px;
+font-family: Gilroy;
+font-size: 45px;
+font-weight: 300;
+line-height: 51.88px;
+text-align: left;
+
+
+}
+
+

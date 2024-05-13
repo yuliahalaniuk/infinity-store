@@ -1,0 +1,37 @@
+.flexList {
+  width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    gap: 100px;
+}
+
+   .OurProduct2{
+    width: 167.83px;
+    height: 28px;
+    
+    opacity: 0px;
+    font-family: Gilroy;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 27.84px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+  }
+
+    .OurCompany2{
+    width: 179.82px;
+  height: 28px;
+  top: 30px;
+  left: 270px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Gilroy;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 27.84px;
+  text-align: left;
+  color: rgba(154, 154, 154, 1);
+
+    }

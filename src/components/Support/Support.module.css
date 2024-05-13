@@ -1,0 +1,32 @@
+.title {
+    font-weight: 500;
+font-size: 80px;
+line-height: 94.16px;
+text-align: center;
+}
+
+.secondaryText {
+    font-weight: 400;
+font-size: 40px;
+line-height: 46.4px
+;text-align: center;
+
+margin-bottom: 46px;
+}
+
+.linksList {
+    
+    display: flex;
+    gap: 40px;
+justify-content: center;
+
+}
+
+.linksList a {
+    font-weight: 500;
+font-size: 40px;
+line-height: 47px;
+text-decoration: underline;
+color: inherit
+}
+
