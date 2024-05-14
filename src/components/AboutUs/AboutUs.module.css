@@ -10,6 +10,12 @@ max-width: 100%;
 
 }
 
+.firstTabLeftSide {
+  display: flex;
+  flex-direction: column;
+  gap: 66px;
+}
+
 .secondTabList{
   display: flex;
   justify-content: space-around;
@@ -18,28 +24,66 @@ max-width: 100%;
 .firstTab {
   display: flex;
   gap: 40px;
+  padding: 60px 0 155px;
 }
 
-.firstTabLeftSide {}
-
-
-.welcomeSTART {
-  padding-block: 300px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  background: url(/public/heroBg.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-
-}
 .step1{
     width: 970px;
     height: 260px;
     background: rgba(30, 30, 30, 1);
     position: relative;
 }
+
+.container {
+    max-width: 1956px;
+    margin: 0 auto;
+padding-inline: 20px;
+}
+
+.secondTabSection {
+  padding: 100px 0 350px;
+}
+p.WeARE{
+  width: 884px;
+font-family: Gilroy;
+font-size: 50px;
+font-weight: 300;
+line-height: 57.65px;
+text-align: left;
+}
+
+p.inf{
+    width: 884px;
+    font-family: Gilroy;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 59.65px;
+    text-align: left;
+  
+}
+p.WeBelive{
+    width: 911px;
+font-family: Gilroy;
+font-size: 35px;
+font-weight: 300;
+line-height: 40.35px;
+text-align: left;
+}
+
+
+.listSubtitles {
+width: 145px;
+font-family: Gilroy;
+font-weight: 700;
+font-size: 60px;
+color: #000;
+line-height: 51.88px;
+text-align: left;
+margin-bottom: 
+22px;
+}
+
+
 a.Generate{
     width: 205px;
     height: 62px;
@@ -86,6 +130,125 @@ text-align: left;
 
 
 color: #ffffff
+}
+
+
+.thirdTabSec {
+  padding: 140px 0 440px;
+  max-width: 923px;
+}
+
+
+.title {
+  font-size: 100px;
+  font-weight: 600;
+color: #000;}
+
+.title span {
+font-weight: 300;
+font-size: 40px;
+}
+
+.subtitle {
+  padding-left: 120px;
+  font-weight: 500;
+font-size: 62px;
+color: #000;
+margin-bottom: 24px;
+}
+
+.description {
+  padding-left: 120px;
+  font-weight: 400;
+font-size: 45px;
+text-align: left;
+}
+
+
+
+.forthTabSec {
+  padding: 56px 0 200px;
+}
+
+.fifthTabSec {
+  padding: 200px 360px;
+  text-align: center;
+}
+.MakeyourChoice{
+    font-family: Gilroy;
+font-size: 72px;
+font-weight: 500;
+line-height: 84.74px;
+color:rgba(0, 0, 0, 1);
+text-align: center;
+}
+
+p.DoYouWant{
+
+font-family: Gilroy;
+font-size: 35px;
+font-weight: 550;
+line-height: 49.4px;
+text-align: left;
+color:rgba(0, 0, 0, 1);
+margin-bottom: 68px;
+}
+
+
+.DoYouWant .OtherWise{
+font-family: Gilroy;
+font-size: 30px;
+font-weight: 150;
+line-height: 34.41px;
+text-align: left;
+color:rgba(0, 0, 0, 1);
+}
+
+.orderedList {
+  display: flex;
+  flex-direction: column;
+  gap: 70px
+}
+
+li.point1{
+height: 34px;
+left: 87px;
+font-family: Gilroy;
+font-size: 32px;
+font-weight: 400;
+line-height: 37.12px;
+text-align: left;
+color: rgba(0, 0, 0, 1);
+
+}
+
+p.Choose{
+  
+font-family: Gilroy;
+font-size: 50px;
+font-weight: 300;
+line-height: 57.65px;
+color:rgba(0, 0, 0, 1);
+text-align: center;
+}
+
+h1.welInf{
+  
+font-family: Gilroy;
+font-size: 90px;
+font-weight: 600;
+line-height: 107.37px;
+color:rgba(0, 0, 0, 1);
+text-align: center;
+max-width: 580px;
+margin: 0 auto;
+}
+
+.ChooseTheBest {
+  font-weight: 400;
+font-size: 60px;
+color: #000;
+text-align: center;
 }
 
   .InfinityStore2{
@@ -554,41 +717,7 @@ color: #ffffff
   color: rgb(255, 255, 255);
   }
 
-p.WeARE{
-  width: 884px;
-height: 242px;
-left: 45px;
-gap: 0px;
-opacity: 0px;
-font-family: Gilroy;
-font-size: 50px;
-font-weight: 300;
-line-height: 57.65px;
-text-align: left;
-}
-p.inf{
-    width: 884px;
-height: 282px;
-left: 550px;
-    font-family: Gilroy;
-    font-size: 60px;
-    font-weight: 600;
-    line-height: 59.65px;
-    text-align: left;
-  
-}
-p.WeBelive{
-    width: 911px;
-height: 211px;
-left: 52px;
-gap: 0px;
-opacity: 0px;
-font-family: Gilroy;
-font-size: 35px;
-font-weight: 300;
-line-height: 40.35px;
-text-align: left;
-}
+
 p.ThereIsNoPlatform{
     width: 819px;
     height: 172px;
@@ -726,46 +855,8 @@ color: rgba(0, 0, 0, 1);
 background: rgb(235, 221, 234);
 
 }
-p.DoYouWant{
-    width: 1478px;
-height: 140px;
-left: 31px;
-gap: 0px;
-opacity: 0px;
-font-family: Gilroy;
-font-size: 35px;
-font-weight: 550;
-line-height: 49.4px;
-text-align: left;
-color:rgba(0, 0, 0, 1);
-}
-p.OtherWise{
-    width: 758px;
-height: 34px;
-left: 1165px;
-gap: 0px;
-opacity: 0px;
-font-family: Gilroy;
-font-size: 30px;
-font-weight: 150;
-line-height: 34.41px;
-text-align: left;
-color:rgba(0, 0, 0, 1);
-}
-li.point1{
-    width: 916px;
-height: 34px;
-left: 87px;
-gap: 0px;
-opacity: 0px;
-font-family: Gilroy;
-font-size: 32px;
-font-weight: 400;
-line-height: 37.12px;
-text-align: left;
-color: rgba(0, 0, 0, 1);
 
-}
+
 li.point2{
     width: 845px;
     height: 39px;
@@ -824,19 +915,7 @@ height: 403px;left: 659px;
 gap: 0px;
 opacity: 0px;
 }
-.MakeyourChoice{
-    width: 578px;
-    height: 85px;
-          gap: 0px;
-    opacity: 0px;
-    font-family: Gilroy;
-font-size: 72px;
-font-weight: 500;
-line-height: 84.74px;
-text-align: left;
-color:rgba(0, 0, 0, 1);
-text-align: center;
-}
+
 h2.Choose{
   
     width: 454px;
@@ -852,34 +931,8 @@ color:rgba(0, 0, 0, 1);
 text-align: center;
 
 }
-p.Choose{
-  
-    width: 179px;
-height: 58px;left: 860px;
-gap: 0px;
-opacity: 0px;
-font-family: Gilroy;
-font-size: 50px;
-font-weight: 300;
-line-height: 57.65px;
-text-align: left;
-color:rgba(0, 0, 0, 1);
-text-align: center;
-}
-h1.welInf{
-  
-    width: 521px;
-height: 214px;left: 703px;
-gap: 0px;
-opacity: 0px;
-font-family: Gilroy;
-font-size: 90px;
-font-weight: 600;
-line-height: 107.37px;
-text-align: left;
-color:rgba(0, 0, 0, 1);
-text-align: center;
-}
+
+
 div.end{
   
     width: 134.86px;

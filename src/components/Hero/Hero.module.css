@@ -1,0 +1,30 @@
+.mainText {
+font-weight: 300;
+font-size: 45px;
+color: #000;
+}
+
+.title {
+ font-weight: 700;
+font-size: 110px;
+color: #000;
+max-width: 700px;
+text-align: center;
+}
+.secondaryText {
+    font-weight: 300;
+font-size: 21px;
+color: #000;
+}
+
+.welcomeSTART {
+  padding-block: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: url(/public/heroBg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}

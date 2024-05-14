@@ -1,0 +1,16 @@
+.list {
+    width: 100%;
+
+}
+
+.subtitle {
+    font-weight: 400;
+font-size: 40px;
+color: #000;
+}
+
+.itemsList {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}

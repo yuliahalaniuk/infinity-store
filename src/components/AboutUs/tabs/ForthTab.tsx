@@ -3,21 +3,17 @@ import styles from "../AboutUs.module.css";
 
 const ForthTab = () => {
   return (
-    <div>
+    <section className={styles.forthTabSec}>
       <p className={styles.DoYouWant}>
         Do you want to publish or showcase your development to the world?{" "}
         <b>Good idea!</b> To publish your product on our website, please read
-        the following terms and adhere to them
+        the following terms and adhere to them{" "}
+        <span className={styles.Otherwise}>
+          otherwise, your product won't be approved for the site
+        </span>
       </p>
-      <br />
-      <p className={styles.Otherwise}>
-        otherwise, your product won't be approved for the site
-      </p>
-      <br />
-      <ol
-        className={`${styles.Project} ${styles.publication}`}
-        id="Project_publication"
-      >
+
+      <ol className={styles.orderedList} id="Project_publication">
         <li className={styles.point1}>
           Register on our platform or log in using any convenient method
         </li>
@@ -36,7 +32,7 @@ const ForthTab = () => {
           Provide a detailed description and attach photos/videos
         </li>
       </ol>
-    </div>
+    </section>
   );
 };
 

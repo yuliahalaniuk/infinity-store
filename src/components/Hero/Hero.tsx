@@ -1,12 +1,11 @@
-import React from "react";
-import styles from "../../components/AboutUs/AboutUs.module.css";
+import styles from "./Hero.module.css";
 
 const Hero = () => {
   return (
     <section className={styles.welcomeSTART}>
-      <h1 className={styles["Welcome-to"]}>Welcome to</h1>
-      <h2 className={styles["Welcome-inf"]}>I N F I N I T Y S T O R E</h2>
-      <p className={styles["Welcome-first"]}>
+      <p className={styles.mainText}>Welcome to </p>
+      <span className={styles.title}>I N F I N I T Y S T O R E</span>
+      <p className={styles.secondaryText}>
         First UA platform for Developers and Gamers
       </p>
     </section>

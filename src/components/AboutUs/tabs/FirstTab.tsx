@@ -3,13 +3,15 @@ import css from "../AboutUs.module.css";
 
 const FirstTab = () => {
   return (
-    <div className={css.firstTab}>
+    <section className={css.firstTab}>
       <div className={css.firstTabLeftSide}>
-        <p className={css.WeARE}>
-          We are a team of aspiring developers united by a common idea, and
-          we've decided to create our project called
-        </p>
-        <p className={css.inf}>Infinity Store</p>
+        <div>
+          <p className={css.WeARE}>
+            We are a team of aspiring developers united by a common idea, and
+            we've decided to create our project called
+          </p>
+          <p className={css.inf}>I N F I N I T Y S T O R E</p>
+        </div>
         <div>
           <p className={css.WeBelive}>
             We believe that our project will help the Ukrainian game development
@@ -38,7 +40,7 @@ const FirstTab = () => {
           Publicate
         </a>
       </div>
-    </div>
+    </section>
   );
 };
 

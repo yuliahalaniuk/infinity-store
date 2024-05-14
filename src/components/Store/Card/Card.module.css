@@ -1,0 +1,54 @@
+.cardBox {
+display: flex;flex-direction: column;
+}
+
+.imgBox {
+    border-radius: 10px;
+width: 304px;
+height: 403px;background: linear-gradient(180deg, #6217ae 0%, #7d43b7 40%, #b39ec9 99.99%, #9674b9 100%);
+
+
+}
+
+.itemTitle {
+    font-weight: 300;
+font-size: 40px;
+}
+
+.priceLine {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-weight: 300;
+font-size: 25px;
+}
+
+
+.priceOld {
+    font-weight: 300;
+font-size: 25px;
+text-decoration: line-through;
+color: #808080;
+}
+
+.priceCur {
+    font-weight: 300;
+font-size: 25px;
+}
+
+.discount {
+    font-weight: 300;
+font-size: 25px;
+letter-spacing: 0.1em;
+color: #fefefe;
+padding: 6px 8px;
+background: linear-gradient(180deg, #6217ae 0%, #7d43b7 40%, #b39ec9 99.99%, #9674b9 100%);
+border-radius: 7px;
+min-width: 80px;
+height: 40px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+

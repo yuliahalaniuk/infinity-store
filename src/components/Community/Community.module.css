@@ -1,0 +1,51 @@
+.communitySection {
+    padding: 65px 0 115px;
+}
+
+.cell {
+    height: 400px ;
+    width: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.container {
+    max-width: max-content;
+    margin: 0 auto;
+display: flex;
+    gap: 106px;
+    align-items: center;
+    padding-inline: 20px;
+}
+.leftSide .cell {
+    margin-right: 40px;
+}
+
+.rightSide .cell {
+    margin-left: 40px;
+}
+
+.cell + .cell {
+border-top: 1px solid #000;
+}
+
+.leftSide {
+    border-right: 1px solid #000;
+}
+
+.rightSide {
+    border-left: 1px solid #000;
+}
+
+.subTitle {
+    font-weight: 500;
+font-size: 60px;
+color: #000;
+}
+.helperText {
+    font-weight: 300;
+font-size: 20px;
+color: #000;
+}

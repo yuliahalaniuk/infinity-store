@@ -2,7 +2,7 @@ import React from "react";
 import css from "./Support.module.css";
 const Support = () => {
   return (
-    <div style={{ padding: "300px 0" }}>
+    <div className={css.supportSec}>
       <h2 className={css.title}>Have any questions?</h2>
       <p className={css.secondaryText}>
         Send your inquiry to our support team <a href={"/"}>here</a> or use

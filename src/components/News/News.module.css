@@ -1,0 +1,43 @@
+.newsSection {
+    padding: 65px 0 115px;
+}
+
+.container {
+    max-width: max-content;
+    margin: 0 auto;
+    display: flex;
+    gap: 106px;
+    align-items: center;
+    padding-inline: 20px;
+}
+
+.cell {
+ width: 465px;
+height: 275px;
+background: #d9d9d9;
+}
+
+
+.cell + .cell {
+margin-top: 123px;
+} 
+
+.leftSide {
+    border-right: 1px solid #000;
+    padding-right: 20px;
+}
+
+.rightSide {
+    border-left: 1px solid #000;
+     padding-left: 20px;
+
+}
+
+.subTitle {
+ font-weight: 500;
+font-size: 40px;
+color: #000;
+text-align: center;
+    margin-bottom: 35px;
+
+}

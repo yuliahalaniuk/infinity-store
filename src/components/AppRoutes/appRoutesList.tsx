@@ -2,6 +2,9 @@ import { RouteObject } from "react-router-dom";
 import SharedLayout from "../layout/SharedLayout";
 import AboutUs from "../AboutUs/AboutUs";
 import Support from "../Support/Support";
+import Community from "../Community/Community";
+import News from "../News/News";
+import Store from "../Store/Store";
 
 export const appRoutesList: RouteObject[] = [
   {
@@ -16,47 +19,15 @@ export const appRoutesList: RouteObject[] = [
         path: "/support",
         element: <Support />,
       },
+      {
+        path: "/community",
+        element: <Community />,
+      },
+      {
+        path: "/news",
+        element: <News />,
+      },
+      { path: "/store", element: <Store /> },
     ],
   },
-
-  // children: [
-  //   {
-  //     path: "/register",
-  //     element: <RegisterPage />,
-  //     children: [
-  //       { path: "/register/success", element: <SuccessRegisterPage /> },
-  //     ],
-  //   },
-  //   {
-  //     path: "/login",
-  //     element: <LogInPage />,
-  //   },
-  // ],
-
-  //   {
-  //     path: "/",
-  //     element: <PrivateLayout />,
-  //     children: [
-  //       {
-  //         // label: "Dashboard",
-  //         path: "/transactions",
-  //         element: <Transactions />,
-  //       },
-  //       { path: "/invoices", element: <InvoicesPage /> },
-  //       { path: "/users", element: <UsersPage /> },
-  //       { path: "/profile", element: <ProfilePage /> },
-  //       { path: "/events", element: <EventsPage /> },
-  //     ],
-  //   },
-  //   {
-  //     path: "/admin",
-  //     element: <AdminLayout isDevMode={ConfigService.isDevMode} />,
-  //     children: [
-  //       {
-  //         path: "mlm-rules",
-  //         element: <MlmRulesPage />,
-  //       },
-  //     ],
-  //   },
-  //   { path: "*", element: <NotFoundPage /> },
 ];

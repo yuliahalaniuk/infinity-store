@@ -54,7 +54,9 @@ const AboutUs = () => {
         return (
           <>
             <AboutUsHeader tabs={tabs} key={index} activeIdx={index} />
-            {item.renderComponent && item.renderComponent()}
+            <div className={css.container}>
+              {item.renderComponent && item.renderComponent()}
+            </div>
           </>
         );
       })}
