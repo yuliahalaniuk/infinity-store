@@ -1,6 +1,7 @@
-import React from "react";
 import styles from "../Layout.module.css";
-// import lang from "../../../../public/icons/lang.svg";
+// import profileIcon from "../../../icons/profile.png";
+
+// import { ReactComponent as LangIcon } from "../../../../public/icons/lang.svg";
 
 const Header = () => {
   return (
@@ -48,7 +49,7 @@ const Header = () => {
               /> */}
           <img
             className={styles.lookfor}
-            src="C:\Users\admin\Desktop\Css\Lookfor.png"
+            src={"C:UsersadminDesktopCssProfile.png"}
             alt="Look for"
           />
         </li>
@@ -56,19 +57,19 @@ const Header = () => {
           <span id="ChangeLanguages" className={styles.ChangeLanguages}>
             <img
               className={styles.iconChangeLanguages}
-              // src={lang}
+              src={"C:UsersadminDesktopCssProfile.png"}
               alt="Change Languages"
             />
           </span>
         </li>
         <li>
-          <span id="Profile" className={styles.Profile}>
+          <a id="Profile" className={styles.Profile} href="/profile">
             <img
               className={styles.iconProfile}
               src="C:\Users\admin\Desktop\Css\Profile.png"
               alt="Profile"
             />
-          </span>
+          </a>
         </li>
       </ul>
     </header>

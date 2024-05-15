@@ -21,7 +21,7 @@ const CardsList = ({
   const sortedArray = sortGames(games, sortBy, sortOrder);
 
   return (
-    <div className={css.list}>
+    <div className={css.line}>
       <p className={css.subtitle}>{title}</p>
       <ul className={css.itemsList}>
         {sortedArray?.map((item, index) => {

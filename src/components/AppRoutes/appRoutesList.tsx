@@ -5,6 +5,7 @@ import Support from "../Support/Support";
 import Community from "../Community/Community";
 import News from "../News/News";
 import Store from "../Store/Store";
+import Profile from "../Profile/Profile";
 
 export const appRoutesList: RouteObject[] = [
   {
@@ -28,6 +29,7 @@ export const appRoutesList: RouteObject[] = [
         element: <News />,
       },
       { path: "/store", element: <Store /> },
+      { path: "/profile", element: <Profile /> },
     ],
   },
 ];
