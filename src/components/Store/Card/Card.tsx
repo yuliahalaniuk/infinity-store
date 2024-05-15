@@ -21,16 +21,15 @@ const Card = ({
       </div>
       <div className={css.infoBox}>
         <p className={css.itemTitle}>{title}</p>
-        <p className={css.priceLine}>
+        <div className={css.priceLine}>
           <p className={css.discount}>{`${price.discount} %`}</p>
           <p className={css.priceOld}>
-            {" "}
             {`${price.oldPrice} ${price.currency}`}
           </p>
           <p className={css.priceCur}>
             {` ${price.currency} ${price.current}`}{" "}
           </p>
-        </p>
+        </div>
       </div>
     </div>
   );

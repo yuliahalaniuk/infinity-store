@@ -11,7 +11,7 @@ const StoreFooter = () => {
           {Object.entries(footerMap).map(([key, value]) => {
             const { title, list } = value;
             return (
-              <li className={styles.footerItem}>
+              <li className={styles.footerItem} key={key}>
                 <a href={"/"} className={styles.subtitle}>
                   <h3>{title}</h3>
                 </a>

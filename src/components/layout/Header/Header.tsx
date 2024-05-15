@@ -1,41 +1,57 @@
+import { useLocation } from "react-router-dom";
 import styles from "../Layout.module.css";
-// import profileIcon from "../../../icons/profile.png";
 
-// import { ReactComponent as LangIcon } from "../../../../public/icons/lang.svg";
+const headerItems = [
+  {
+    title: "Store",
+    href: "/store",
+  },
+  {
+    title: "Community",
+    href: "/community",
+  },
+  {
+    title: "News & Events",
+    href: "/news",
+  },
+  {
+    title: "Support",
+    href: "/support",
+  },
+  {
+    title: "About Us",
+    href: "/about",
+  },
+];
 
 const Header = () => {
+  const { pathname } = useLocation();
+
   return (
     <header className={styles.header}>
       <nav className={styles.navList}>
-        <a className={styles.InfinityStore} href="/main">
+        <a className={styles.InfinityStore} href="/">
           INFINITY STORE
         </a>
         <ul className={styles.navList}>
-          <li>
-            <a className={styles.headerLink} href="/store">
-              Store
-            </a>
-          </li>
-          <li>
-            <a className={styles.headerLink} href="/community">
-              Community
-            </a>
-          </li>
-          <li>
-            <a className={styles.headerLink} href="/news">
-              News & Events
-            </a>
-          </li>
-          <li>
-            <a className={styles.headerLink} href="/support">
-              Support
-            </a>
-          </li>
-          <li>
-            <a className={styles.headerLink} href="/about">
-              About Us
-            </a>
-          </li>
+          {headerItems?.map(({ title, href }) => {
+            const isActive = href === pathname;
+
+            return (
+              <li
+                key={href}
+                className={
+                  isActive
+                    ? `${styles.headerItem} ${styles.active}`
+                    : styles.headerItem
+                }
+              >
+                <a className={styles.headerLink} href={href}>
+                  {title}
+                </a>
+              </li>
+            );
+          })}
         </ul>
       </nav>
 
