@@ -1,7 +1,13 @@
 import { useLocation } from "react-router-dom";
 import styles from "../Layout.module.css";
+import langIcon from "../../../icons/lang.svg";
+import profileIcon from "../../../icons/profile.svg";
+import searchIcon from "../../../icons/search.svg";
+import { useState } from "react";
+import useMediaQuery from "../../../utils/useMediaQuery";
+import MobMenu from "./MobMenu/MobMenu";
 
-const headerItems = [
+export const headerItems = [
   {
     title: "Store",
     href: "/store",
@@ -27,68 +33,89 @@ const headerItems = [
 const Header = () => {
   const { pathname } = useLocation();
 
+  const [isOpen, setIsOpen] = useState(false);
+
+  const handleClick = () => {
+    setIsOpen((state) => !state);
+  };
+  const isBreakpoint = useMediaQuery(1280);
+
   return (
-    <header className={styles.header}>
-      <nav className={styles.navList}>
-        <a className={styles.InfinityStore} href="/">
-          INFINITY STORE
-        </a>
-        <ul className={styles.navList}>
-          {headerItems?.map(({ title, href }) => {
-            const isActive = href === pathname;
+    <>
+      <header className={styles.header}>
+        <div className={styles.navList}>
+          <a className={styles.InfinityStore} href="/">
+            INFINITY STORE
+          </a>
+        </div>
 
-            return (
+        {!isBreakpoint ? (
+          <div className={styles.headerList}>
+            <ul className={styles.navList}>
+              {headerItems?.map(({ title, href }) => {
+                const isActive = href === pathname;
+
+                return (
+                  <li
+                    key={href}
+                    className={
+                      isActive
+                        ? `${styles.headerItem} ${styles.active}`
+                        : styles.headerItem
+                    }
+                  >
+                    <a className={styles.headerLink} href={href}>
+                      {title}
+                    </a>
+                  </li>
+                );
+              })}
+            </ul>
+            <ul className={styles.iconsList}>
               <li
-                key={href}
-                className={
-                  isActive
-                    ? `${styles.headerItem} ${styles.active}`
-                    : styles.headerItem
-                }
+                className={styles.Profile}
+                style={{
+                  borderRight: "1px solid rgb(154, 154, 154)",
+                  paddingRight: "10px",
+                }}
               >
-                <a className={styles.headerLink} href={href}>
-                  {title}
-                </a>
-              </li>
-            );
-          })}
-        </ul>
-      </nav>
-
-      <ul className={styles.iconsList}>
-        <li>
-          {/* <input
+                {/* <input
                 className={styles.search}
                 type="search"
                 id="site-search"
                 name="q"
               /> */}
-          <img
-            className={styles.lookfor}
-            src={"C:UsersadminDesktopCssProfile.png"}
-            alt="Look for"
-          />
-        </li>
-        <li>
-          <span id="ChangeLanguages" className={styles.ChangeLanguages}>
-            <img
-              className={styles.iconChangeLanguages}
-              src={"C:UsersadminDesktopCssProfile.png"}
-              alt="Change Languages"
-            />
-          </span>
-        </li>
-        <li>
-          <a id="Profile" className={styles.Profile} href="/profile">
-            <img
-              className={styles.iconProfile}
-              src="C:\Users\admin\Desktop\Css\Profile.png"
-              alt="Profile"
-            />
-          </a>
-        </li>
-      </ul>
-    </header>
+                <img
+                  src={searchIcon}
+                  alt="Look for"
+                  className={styles.lookFor}
+                />
+              </li>
+              <li className={styles.Profile}>
+                <span id="ChangeLanguages">
+                  <img src={langIcon} alt="Change Languages" />
+                </span>
+              </li>
+              <li className={styles.Profile}>
+                <a id="Profile" href="/profile">
+                  <img src={profileIcon} alt="Profile" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        ) : (
+          <button
+            onClick={handleClick}
+            type="button"
+            className={styles.menuBtn}
+          >
+            Menu
+          </button>
+        )}
+      </header>
+
+      <MobMenu onClose={handleClick} isShown={isOpen} />
+    </>
   );
 };
 

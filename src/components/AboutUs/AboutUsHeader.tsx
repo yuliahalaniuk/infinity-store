@@ -11,7 +11,12 @@ const AboutUsHeader = ({
 }) => {
   return (
     <div className={css.containerSecondaryHeader}>
-      <p style={{ padding: "8px" }}>
+      <p
+        style={{
+          borderRight: "1px solid rgb(154, 154, 154)",
+          textAlign: "center",
+        }}
+      >
         <a className={css.InfinityStore2} href="/main">
           INFINITY STORE
         </a>

@@ -9,6 +9,10 @@ align-items: center;
 font-size: 80px;
 line-height: 94.16px;
 text-align: center;
+
+@media screen and (max-width: 480px) {
+    font-size: 60px;
+}
 }
 
 .secondaryText {
@@ -25,7 +29,7 @@ margin-bottom: 46px;
     display: flex;
     gap: 40px;
 justify-content: center;
-
+flex-wrap: wrap;
 }
 
 .linksList a {

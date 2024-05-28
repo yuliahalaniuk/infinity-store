@@ -14,7 +14,7 @@ const SecondTab = () => {
         </li>
         <li>
           <h1 className={css.listSubtitles}>2.Publish</h1>
-          <p className={css.text2}>
+          <p className={css.text1}>
             Publication on our website follows two principles:<b>F2P</b> or{" "}
             <a className={css.NFP}>NFP Not Free Placement </a>Make this choice
             carefully and consider all the pros and cons
@@ -22,7 +22,7 @@ const SecondTab = () => {
         </li>
         <li>
           <h1 className={css.listSubtitles}>3.Analyze</h1>
-          <p className={css.text3}>
+          <p className={css.text1}>
             After publishing your product gather and analyze user feedback. All
             information is collected, analyzed and then presented in your
             personal account
@@ -30,7 +30,7 @@ const SecondTab = () => {
         </li>
         <li>
           <h1 className={css.listSubtitles}>4.Better</h1>
-          <p className={css.text4}>
+          <p className={css.text1}>
             Make your product better and grow with us! We will help in every way
             we can to make your product better and more popular
           </p>

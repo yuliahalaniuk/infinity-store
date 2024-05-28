@@ -1,0 +1,233 @@
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 100px;
+  height: 50px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 40px;
+  width: 40px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #000;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #000;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(52px);
+  -ms-transform: translateX(52px);
+  transform: translateX(52px);
+}
+
+.slider.round {
+  border-radius: 40px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.top {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    font-weight: 400;
+font-size: 40px;
+color: #000;
+}
+
+.head {
+    background: #d9d9d9;
+    padding: 2px 24px;
+}
+
+.headBottom {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+
+    font-weight: 400;
+font-size: 20px;
+color: #000;
+}
+
+.middleLine{
+    background: linear-gradient(
+          180deg,
+          #1e1e1e 0%,
+          #848484 50%,
+          #1e1e1e 50%,
+          #1e1e1e 100%
+        );
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 24px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.achItem
+{ 
+    display: flex;
+flex-direction: column;
+align-items: center;}
+
+.achItem p + p  {
+    font-weight: 400;
+font-size: 35px;
+color: #fff;
+}
+
+.achItem > p  {
+   font-weight: 400;
+font-size: 20px;
+color: #fff;
+}
+
+.achievementsList {
+    display: flex;
+    gap: 36px;
+}
+
+.achRightItem {
+    font-weight: 400;
+font-size: 40px;
+color: #fff;
+}
+
+.achRightList {
+    display: flex;
+    gap: 20px;
+}
+
+.mainBox {
+    width: 100%;
+    background: #1e1e1e;
+
+    display: flex;
+    gap: 20px;
+   padding: 20px;
+
+}
+
+.mainBox ul {
+   max-width: 310px;
+}
+
+.listBtn {
+    padding: 20px 30px;
+    background: #1e1e1e;
+    transition: all 250ms linear;
+    width: 100%;
+}
+
+.listBtn:hover {
+    background: linear-gradient(270deg, #595959 0%, #262626 100%);
+    transition: all 250ms linear;
+}
+.listBtn button {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    background: inherit;
+    font-weight: 400;
+font-size: 32px;
+color: #fff;
+}
+
+
+.borderBox {
+    border: 3px solid #d9d9d9;
+    padding: 30px 33px;
+    width: 100%;
+}
+
+.btnsBox {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.whiteBtns {
+    background: #d9d9d9;
+    font-weight: 400;
+font-size: 40px;
+color: #000;
+padding: 8px 4px;
+}
+
+.userIcon {
+    background-image: url(../../icons/user.png);
+    width: 200px;
+height: 194px;
+background-size: cover;
+}
+.borderBoxBottom {
+display: flex;
+
+align-items: center;
+justify-content: center; gap: 30px;
+
+
+}
+.smallBox {
+    border: 3px solid #d9d9d9;
+
+    width: 50%;
+    width: 577px;
+    height: 405px;
+}
+
+.left p {
+font-weight: 400;
+font-size: 40px;
+color: #fff;
+margin-bottom: 4px;
+}
+.right  > p {
+    font-weight: 400;
+font-size: 40px;
+color: #fff;
+text-align: center;
+}
+
+.right p + p {
+    font-weight: 400;
+font-size: 35px;
+color: #fff;
+text-align: center;
+}

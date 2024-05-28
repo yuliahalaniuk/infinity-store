@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import styles from "./StepsList.module.css";
 
@@ -16,7 +17,6 @@ const StepsList = ({
             className={
               index === activeIdx ? styles.OurProduct2 : styles.OurCompany2
             }
-            href={href}
           >
             {text}
           </a>

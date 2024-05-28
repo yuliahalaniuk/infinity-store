@@ -1,4 +1,4 @@
-import { RouteObject } from "react-router-dom";
+import { Navigate, RouteObject } from "react-router-dom";
 import SharedLayout from "../layout/SharedLayout";
 import AboutUs from "../AboutUs/AboutUs";
 import Support from "../Support/Support";
@@ -12,6 +12,10 @@ export const appRoutesList: RouteObject[] = [
     path: "/",
     element: <SharedLayout />,
     children: [
+      {
+        path: "/",
+        element: <Navigate to="/about" replace />,
+      },
       {
         path: "/about",
         element: <AboutUs />,

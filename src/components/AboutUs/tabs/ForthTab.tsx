@@ -17,18 +17,18 @@ const ForthTab = () => {
         <li className={styles.point1}>
           Register on our platform or log in using any convenient method
         </li>
-        <li className={styles.point2}>
+        <li className={styles.point1}>
           Read and agree to the rules and conditions of our service
         </li>
-        <li className={styles.point3}>
+        <li className={styles.point1}>
           Provide your details, all necessary details you can find in our help
           book
         </li>
-        <li className={styles.point4}>
+        <li className={styles.point1}>
           Make the initial payment if it's a paid game; otherwise, no payment is
           required
         </li>
-        <li className={styles.point5}>
+        <li className={styles.point1}>
           Provide a detailed description and attach photos/videos
         </li>
       </ol>
